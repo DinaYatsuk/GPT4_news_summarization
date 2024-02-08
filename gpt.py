@@ -1,7 +1,6 @@
 import g4f
 import sys
 import csv
-from tqdm import tqdm
 from multiprocessing import Pool
 
 def read_csv(file_path):
