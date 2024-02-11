@@ -3,7 +3,7 @@ import sys
 import csv
 from multiprocessing import Pool
 
-def read_csv(file_path) -> List[str]:
+def read_csv(file_path) -> list[str]:
     """
     Read the CSV fle and return a list of text entries.
     
